@@ -1,0 +1,76 @@
+.card {
+    border: 0.7px solid rgba(48, 47, 46, 0.7);
+    border-radius: 0;
+
+    &__wrapper {
+        z-index: 2;
+    }
+
+    &__title {
+        font-family: "Istok Web", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    &__block {
+        padding-right: 0;
+
+        &_descr {
+            padding-left: 6px;
+            line-height: 17px;
+        }
+
+        &_name {
+            font-size: 14px;
+        }
+
+        &_checked {
+            font-size: 11px;
+            color: #FF9900
+        }
+    }
+
+    &__rarity {
+        &_title {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        &_value {
+            font-size: 11px;
+            line-height: 19px;
+            border-radius: 7px;
+            max-width: 90px;
+            height: 21px;
+            width: 90px;
+        }
+    }
+
+    &__price {
+        &_title {
+            font-size: 14px;
+            line-height: 26px;
+        }
+
+        &_value {
+            width: 76px;
+            height: 21px;
+            background: $main-color;
+            border-radius: 7px;
+            font-size: 11px;
+            line-height: 21px;
+        }
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        width: 183px;
+        height: 37px;
+        background: linear-gradient(90deg, #FDD446 0%, #F79B47 100%);
+        font-family: "Istok Web", sans-serif;
+        font-size: 17px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,43 @@
+.pagination {
+    width: 258px;
+
+    .page-item {
+        position: relative;
+
+        .page-link {
+            border: none;
+            color: #000000;
+            font-family: 'Istok Web', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 38px;
+            z-index: 10;
+            background-color: transparent;
+            position: relative;
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+                ;
+            }
+        }
+    }
+
+}
+
+.active {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $main-color;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+}

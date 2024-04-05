@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#currency {
+    margin: 25px auto 25px;
+    border-collapse: collapse;
+    width: 65%;
+}
+
+#currency td,
+#currency th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 33.33%;
+}
+
+#currency thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+.maincurr {
+    background-color: rgb(90, 125, 228) !important;
+}
+
+.usdt {
+    background-color: rgb(167, 177, 150);
+}
+
+tr:hover {
+    background-color: #f2f2f2 !important;
+}

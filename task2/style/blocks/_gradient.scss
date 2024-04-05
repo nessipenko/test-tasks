@@ -1,0 +1,27 @@
+.gradient {
+    position: absolute;
+    width: 365px;
+    height: 335px;
+    left: -235px;
+    top: 129px;
+    background: rgba(253, 212, 70, 0.5);
+    filter: blur(90px);
+    z-index: 1;
+
+    &2 {
+        width: 554px;
+        height: 509px;
+        left: 589px;
+        top: 1166px;
+        filter: blur(137.129px);
+    }
+
+    &3 {
+        width: 768px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2895px;
+        filter: blur(190.099px);
+        z-index: 0;
+    }
+}

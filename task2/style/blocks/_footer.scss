@@ -1,0 +1,55 @@
+.footer {
+    position: relative;
+    height: 310px;
+    width: 768px;
+    margin: 0 auto;
+    background-color: $main-color;
+    z-index: 10;
+    padding: 0 58px;
+
+
+
+    col {
+        padding: 0;
+    }
+
+    &__title {
+        font-family: 'Istok Web', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 17px;
+    }
+
+    &__link {
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    li {
+        margin-bottom: 13px;
+    }
+
+    &__divider {
+        position: relative;
+    }
+
+    &__logo {
+        position: absolute;
+        bottom: 12px;
+
+        &_name {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 21px;
+            color: rgba(0, 0, 0, 0.5);
+
+        }
+    }
+
+    &__social {
+        margin-left: 6px;
+    }
+}
